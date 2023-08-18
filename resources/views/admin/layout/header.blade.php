@@ -309,8 +309,8 @@
                             <span class="nav-text">gestion owners</span>
                         </a>
                         <ul aria-expanded="false">
-                            {{-- <li><a href="{{route('ownerlist')}}">Owners list</a></li> --}}
-                            <li><a href="analytics.html">add owner</a></li>
+                            <li><a href="{{route('owner.index')}}">Owners list</a></li>
+                            <li><a href="{{route('owner.create')}}">add owner</a></li>
                         </ul>
                     </li>
                     @can('roles view')
@@ -326,6 +326,16 @@
                             </ul>
                         </li>
                     @endcan
+
+                    <li><a class="has-arrow ai-icon" href="javascript:void(0);" aria-expanded="false">
+                        <i class="flaticon-381-networking"></i>
+                        <span class="nav-text">gestion Plan</span>
+                    </a>
+                    <ul aria-expanded="false">
+                        <li><a href="{{route('plan.index')}}">Plan list</a></li>
+                        <li><a href="{{route('plan.create')}}">add Plan</a></li>
+                    </ul>
+                </li>
                 </ul>
 
             </div>

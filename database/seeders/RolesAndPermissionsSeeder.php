@@ -28,6 +28,9 @@ class RolesAndPermissionsSeeder extends Seeder
             'posts create', 'posts view', 'posts edit', 'posts delete', 'posts show', 
             'blogs create', 'blogs view', 'blogs edit', 'blogs delete', 'blogs show', 
             'sliders create', 'sliders view', 'sliders edit', 'sliders delete', 'sliders show', 
+            //
+            'plans create', 'plans view', 'plans edit', 'plans delete', 'plans show',
+
 
         ];
 

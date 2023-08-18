@@ -12,5 +12,5 @@ interface IRoleRepository
 
     public function updateRole(array $data, Role $role);
 
-    public function deleteRole(Role $role);
+    public function deleteRole($role);
 }
